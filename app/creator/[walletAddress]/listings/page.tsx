@@ -80,7 +80,7 @@ export default function Page({
           <div className="flex gap-4">
             {products.length &&
               products.map((product: IProduct) => (
-                <Product product={product} />
+                <Product key={product.description} product={product} />
               ))}
           </div>
         </div>

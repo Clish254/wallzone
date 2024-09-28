@@ -58,7 +58,7 @@ export default function Explore() {
       {creators.length ? (
         <div className="flex gap-4">
           {creators.map((creator: ICreator) => (
-            <Creator creator={creator} />
+            <Creator key={creator.walletAddress} creator={creator} />
           ))}
         </div>
       ) : (

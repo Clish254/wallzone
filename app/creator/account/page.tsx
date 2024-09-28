@@ -89,7 +89,7 @@ export default function CreatorAccount() {
           <div className="flex gap-4">
             {products.length &&
               products.map((product: IProduct) => (
-                <Product product={product} />
+                <Product key={product.name} product={product} />
               ))}
           </div>
         </div>

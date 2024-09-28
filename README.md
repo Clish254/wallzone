@@ -1,5 +1,5 @@
 #  WALLZONE
-A web application for buying and selling wallpapers that handled payments via solana pay.
+A web application for buying and selling wallpapers that handles payments via solana pay.
 
 ## Features
 
